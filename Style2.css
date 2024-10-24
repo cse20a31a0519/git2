@@ -4,7 +4,7 @@
     height: 500px;
     display: flex;
     /* flex-wrap: wrap; */
-    flex-direction: ;
+    flex-direction: row;
 }
 .p{
     flex: 2 1 400px;
