@@ -1,0 +1,25 @@
+.parent{
+    background-color: greenyellow;
+    width: auto;
+    height: 500px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: ;
+}
+.p{
+    flex: 2 1 400px;
+    display: ;
+}
+.p1{
+    background-color: aquamarine;
+    align-self: flex-start;
+}
+.p3{
+    background-color: darkkhaki;
+    align-self: center;
+}
+.p4{
+    background-color: darksalmon;
+    /* flex-basis:100% ; */
+    align-self: flex-end;
+}

@@ -1,0 +1,70 @@
+#box{
+
+    border-style:dotted;
+    border-width: initial;
+    text-align: center;
+}
+.parent {
+  display: flex;
+  height: 200px;
+  align-items:center;
+  background-color:cadetblue;
+  justify-content: center;
+}
+
+.parent > div {
+  background-color: #f1f1f1;
+
+  width: 50px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container {
+    display: flex;
+    height: 200px;
+    align-items:center;
+    background-color:rgb(173, 188, 189);
+    justify-content: center;
+  }
+  
+  .flex-item1 {
+    /* flex-grow: 2;  */
+    flex-shrink: 1;
+    background-color: lawngreen;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+  .flex-item2 {
+    flex-grow: 3;
+    flex-shrink: 2;
+    background-color: chocolate;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+  .flex-item3 {
+     /* flex-grow: 5;  */
+    flex-shrink: 10;
+    background-color: darkmagenta;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+  .bbox{
+    background-image:url(https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg) ,url(https://i.pinimg.com/originals/0b/c0/b3/0bc0b32fb245c742a63344e7fa924b94.jpg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    padding: 15px;
+}
